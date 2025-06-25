@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a93222bb6f8a5f41a444db303fb941dd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a93222bb6f8a5f41a444db303fb941dd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a93222bb6f8a5f41a444db303fb941dd = L.map(
+                "map_a93222bb6f8a5f41a444db303fb941dd",
+                {
+                    center: [30.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ebd114d9c6057bea3b713f36977bbd51 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ebd114d9c6057bea3b713f36977bbd51.addTo(map_a93222bb6f8a5f41a444db303fb941dd);
+        
+    
+            var marker_eb8c0c0772be935aa5e10362671831a4 = L.marker(
+                [42.4604, -71.3489],
+                {
+}
+            ).addTo(map_a93222bb6f8a5f41a444db303fb941dd);
+        
+    
+        var popup_faafff8e75c39fa0a6777ed5c455b1b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8151264fbb463f058e4d22865e446652 = $(`<div id="html_8151264fbb463f058e4d22865e446652" style="width: 100.0%; height: 100.0%;">Little Women (2019) Dir: Greta Gerwig</div>`)[0];
+                popup_faafff8e75c39fa0a6777ed5c455b1b2.setContent(html_8151264fbb463f058e4d22865e446652);
+            
+        
+
+        marker_eb8c0c0772be935aa5e10362671831a4.bindPopup(popup_faafff8e75c39fa0a6777ed5c455b1b2)
+        ;
+
+        
+    
+    
+            var marker_6c79509e2438bdd8c0035f0b381c84eb = L.marker(
+                [24.2992, 55.795],
+                {
+}
+            ).addTo(map_a93222bb6f8a5f41a444db303fb941dd);
+        
+    
+        var popup_958f14d6ec671c2b0526c8f206521fcf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6dd147f5b52fc060cb144cc7eed3406 = $(`<div id="html_a6dd147f5b52fc060cb144cc7eed3406" style="width: 100.0%; height: 100.0%;">Dune: Part Two (2024) Dir: Denis Villeneuve</div>`)[0];
+                popup_958f14d6ec671c2b0526c8f206521fcf.setContent(html_a6dd147f5b52fc060cb144cc7eed3406);
+            
+        
+
+        marker_6c79509e2438bdd8c0035f0b381c84eb.bindPopup(popup_958f14d6ec671c2b0526c8f206521fcf)
+        ;
+
+        
+    
+    
+            var marker_7d7413b174cf355826a25fb5df8a8e5a = L.marker(
+                [34.0522, -118.2437],
+                {
+}
+            ).addTo(map_a93222bb6f8a5f41a444db303fb941dd);
+        
+    
+        var popup_bd0aa5357f0688e8e59770d82ffe8507 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b02c153ccaa6f82fa574067741ee76e7 = $(`<div id="html_b02c153ccaa6f82fa574067741ee76e7" style="width: 100.0%; height: 100.0%;">La La Land (2016) Dir: Damien Chazelle</div>`)[0];
+                popup_bd0aa5357f0688e8e59770d82ffe8507.setContent(html_b02c153ccaa6f82fa574067741ee76e7);
+            
+        
+
+        marker_7d7413b174cf355826a25fb5df8a8e5a.bindPopup(popup_bd0aa5357f0688e8e59770d82ffe8507)
+        ;
+
+        
+    
+    
+            var marker_b8986d706819012d9eb54fedce3036ab = L.marker(
+                [56.8697, -5.4305],
+                {
+}
+            ).addTo(map_a93222bb6f8a5f41a444db303fb941dd);
+        
+    
+        var popup_bda2251b6cd8652d9c6321045ac1ec7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02cc46fff3d2c58d7678409049ab8b1d = $(`<div id="html_02cc46fff3d2c58d7678409049ab8b1d" style="width: 100.0%; height: 100.0%;">Harry Potter y el prisionero de Azkaban (2004) Dir: Alfonso Cuarón</div>`)[0];
+                popup_bda2251b6cd8652d9c6321045ac1ec7d.setContent(html_02cc46fff3d2c58d7678409049ab8b1d);
+            
+        
+
+        marker_b8986d706819012d9eb54fedce3036ab.bindPopup(popup_bda2251b6cd8652d9c6321045ac1ec7d)
+        ;
+
+        
+    
+    
+            var marker_4b561e44e131201c8f32519b1eb04c26 = L.marker(
+                [48.8867, 2.3431],
+                {
+}
+            ).addTo(map_a93222bb6f8a5f41a444db303fb941dd);
+        
+    
+        var popup_c63fdf15c95770bbcce40e505c6225ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c8bf46864cbd74721bca43831f71ae8 = $(`<div id="html_1c8bf46864cbd74721bca43831f71ae8" style="width: 100.0%; height: 100.0%;">Amélie (2001) Dir: Jean-Pierre Jeunet</div>`)[0];
+                popup_c63fdf15c95770bbcce40e505c6225ca.setContent(html_1c8bf46864cbd74721bca43831f71ae8);
+            
+        
+
+        marker_4b561e44e131201c8f32519b1eb04c26.bindPopup(popup_c63fdf15c95770bbcce40e505c6225ca)
+        ;
+
+        
+    
+</script>
+</html>
