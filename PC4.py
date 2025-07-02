@@ -194,7 +194,36 @@ else:
         st.image("DIAGRAMA_1.png", caption='Diagrama realizado en el ciclo', width=500)
         pass
     elif grafico_seleccionado == 'Gráfico de barras':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu gráfico</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'> Dominancia de EsSalud:
+
+●	El hashtag #EsSalud es el más usado, con 55 menciones, lo que sugiere una estrategia más activa o eficiente de posicionamiento institucional en TikTok por parte de EsSalud.
+
+●	En cambio, el hashtag #Minsa aparece solo 4 veces, evidenciando una menor presencia en comparación.
+
+Temáticas centrales:
+
+●	Los hashtags con mayor frecuencia están ligados directamente a temas de salud y vacunación:
+
+○	#COVID19 (30 menciones)
+
+○	#VacunaVacunas (19 menciones)
+
+○	#vacunarseEsSalud (17 menciones)
+
+○	#Pfizer (15 menciones)
+
+○	#PlazaNorte y #VacunatonVacunaton, también con 15 menciones, probablemente hacen alusión a campañas específicas o centros de vacunación.
+
+Campañas con identidad emocional o festiva:
+
+●	Hashtags como #VacunamosConAmor (13 menciones) y #VacunaFest (6 menciones) reflejan esfuerzos comunicacionales para conectar con la audiencia a través de emociones o formatos juveniles y atractivos.
+
+Tendencias de comunicación:
+
+●	El uso de hashtags institucionales y de campañas revela una orientación hacia una comunicación proactiva, especialmente por parte de EsSalud.
+
+●	El uso decreciente de ciertos hashtags sugiere que hay iniciativas o mensajes que no lograron posicionarse con la misma fuerza, o que pertenecen a campañas más puntuales y menos replicadas.
+</div>", unsafe_allow_html=True)
         st.image("lengua_familia_GB.png", caption='Gráfico de familias lingüísticas', width=500)
         pass
     elif grafico_seleccionado == 'mapa_':
