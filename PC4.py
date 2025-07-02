@@ -230,7 +230,7 @@ Tendencias de comunicación:
         st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí encontraras un análisis de los siguientes lugares del Perú en relación a la actividad propuesta, siendo que los resultados son variados y divergentes en las regiones particualares </div>", unsafe_allow_html=True)
         # Si "mapa_.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
-        with open("mapa_cusco.html", "r", encoding="utf-8") as f:
+        with open("mapa_peliculas_favoritas.html", "r", encoding="utf-8") as f:
             html_content = f.read()
         components.html(html_content, height=500)
         pass
