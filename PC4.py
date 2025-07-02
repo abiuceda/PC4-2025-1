@@ -191,11 +191,11 @@ else:
     # Mostramos el gráfico seleccionado
     if grafico_seleccionado == 'Presentación de diagrama':
         st.markdown("<div style='text-align: justify; font-size : 20px;'>Predominio de películas: Casi el 70% del contenido corresponde a películas, lo que indica que este tipo de formato tiene una presencia significativamente mayor en la muestra analizada. Menor proporción de series: Las series representan poco más del 30%, lo que sugiere que, aunque son relevantes, no son tan abundantes como las películas en este caso. Esta distribución podría estar relacionada con el catálogo de una plataforma de streaming, una base de datos de producción audiovisual o una colección de contenido curado para cierto público.</div>", unsafe_allow_html=True)
-        st.image("DIAGRAMA_1.png", caption='Diagrama realizado en el ciclo', width=500)
+        st.image("DIAGRAMA 1.png", caption='Diagrama realizado en el ciclo', width=500)
         pass
     elif grafico_seleccionado == 'Gráfico de barras':
         st.markdown("<div style='text-align: justify; font-size: 20px;'> Dominancia de EsSalud: El hashtag #EsSalud es el más usado, con 55 menciones, lo que sugiere una estrategia más activa o eficiente de posicionamiento institucional en TikTok por parte de EsSalud.El uso decreciente de ciertos hashtags sugiere que hay iniciativas o mensajes que no lograron posicionarse con la misma fuerza, o que pertenecen a campañas más puntuales y menos replicadas.</div>", unsafe_allow_html=True)
-        st.image("lengua_familia_GB.png", caption='Gráfico de familias lingüísticas', width=500)
+        st.image("GRÁFICO 2.png", caption='Gráfico de familias lingüísticas', width=500)
         pass
     elif grafico_seleccionado == 'mapa_':
         st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí encontraras un análisis de los siguientes lugares del Perú en relación a la actividad propuesta, siendo que los resultados son variados y divergentes en las regiones particualares </div>", unsafe_allow_html=True)
