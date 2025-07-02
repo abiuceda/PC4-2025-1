@@ -46,12 +46,12 @@ if pagina_seleccionada == 'Inicio':
     # La función st.markdown permite centrar y agrandar la letra del título de la web en Streamlit.
     st.markdown("<h1 style='text-align: center;'> Abi's space :)</h1>", unsafe_allow_html=True)
 
-    # <h1 style='text-align: center;'>Bibi's page</h1>: Esto es una cadena de código HTML. 
+    # <h1 style='text-align: center;'>Abigail's page</h1>: Esto es una cadena de código HTML. 
     # La etiqueta <h1> se utiliza para el encabezado principal de una página web, y 
     # el atributo style se utiliza para agregar estilos CSS. 
     # En este caso, el texto está alineado al centro (text-align: center;). 
     # Pueden agregar emojis en el texto de Markdown utilizando códigos de emoji, por ejemplo:
-    # <h1 style='text-align: center;'>Aquí escribe un nombre creativo para tu blog 📝</h1>
+    # <h1 style='text-align: center;'> Homepage of Abi 📝</h1>
     # También pueden personalizar el color del texto utilizando el atributo style, por ejemplo:
     # <h1 style='text-align: center; color: blue;'>Nombre de tu blog</h1>
     # El texto dentro de las etiquetas <h1> ("Aquí escribe un nombre creativo para tu blog") es el contenido del encabezado.
