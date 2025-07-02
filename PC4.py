@@ -54,7 +54,7 @@ if pagina_seleccionada == 'Inicio':
     # <h1 style='text-align: center;'> Homepage of Abi 📝</h1>
     # También pueden personalizar el color del texto utilizando el atributo style, por ejemplo:
     # <h1 style='text-align: center; color: blue;'>Nombre de tu blog</h1>
-    # El texto dentro de las etiquetas <h1> ("Aquí escribe un nombre creativo para tu blog") es el contenido del encabezado.
+    # El texto dentro de las etiquetas <h1> ("Homepage of Abi") es el contenido del encabezado.
 
     # unsafe_allow_html=True: Este es un argumento opcional en la función markdown. 
     # Por defecto, streamlit no permite HTML en el texto de Markdown.
@@ -133,7 +133,7 @@ Siento que aprendí más porque pude vincular la programación con temas que me 
     # Agregamos un subtítulo para el video
     st.markdown("<h2 style='text-align: center;'>Un trabajito para el recuerdo</h2>", unsafe_allow_html=True)
     
-    # <h2 style='text-align: center;'>Aquí escribe un nombre creativo para presentar tu video</h2>: Esta es una cadena de código HTML.
+    # <h2 style='text-align: center;'> Los trabajos dentro del ciclo</h2>: Esta es una cadena de código HTML.
     # La etiqueta <h2> se utiliza para un encabezado de segundo nivel en una página web.
     # El texto está centrado (text-align: center;).
     # El texto dentro de las etiquetas <h2> ("Aquí escribe un nombre creativo para presentar tu video") es el contenido del encabezado.
