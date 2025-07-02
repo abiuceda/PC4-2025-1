@@ -227,8 +227,8 @@ Tendencias de comunicación:
         st.image("lengua_familia_GB.png", caption='Gráfico de familias lingüísticas', width=500)
         pass
     elif grafico_seleccionado == 'mapa_':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu mapa</div>", unsafe_allow_html=True)
-        # Si "mapa_cusco.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí encontraras un análisis de los siguientes lugares del Perú en relación a la actividad propuesta, siendo que los resultados son variados y divergentes en las regiones particualares </div>", unsafe_allow_html=True)
+        # Si "mapa_.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
         with open("mapa_cusco.html", "r", encoding="utf-8") as f:
             html_content = f.read()
